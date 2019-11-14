@@ -11,7 +11,8 @@ endif
 syn keyword unsignedElemnetKeyword U0 U8 U16 U32 U64
 syn keyword signedElementKeyword I8 I16 I32 I64 F64 Bool
 syn keyword typeElementKeyword Bool CDocEntry CHashClass CMemberLst private public 
-syn keyword typeConstant FALSE HTT_CLASS HTT_EXPORT_SYS_SYMHTT_FUN HTT_INTERNAL_TYPE REG_REGS_NUMRT_I0 RT_I8 RT_I16 RT_I32 RT_F64 RT_U0 RT_U8 RT_U16 RT_U32 RT_U64 TRUE
+syn keyword typeConstant FALSE HTT_CLASS HTT_EXPORT_SYS_SYMHTT_FUN HTT_INTERNAL_TYPE OFF ON REG_REGS_NUMRT_I0 RT_I8 RT_I16 RT_I32 RT_F64 RT_U0 RT_U8 RT_U16 RT_U32 RT_U64 TRUE
+syn keyword colorConstant BLACK BLUE BROWN CYAN DEFAULT DKGRAY GREEN LTBLUE LTCYAN LTGRAY LTGREEN LTPURPLE LTRED PURPLE RED WHITE YELLOW
 syn keyword genericKeyword asm case else end for if no_warn start switch return while
 syn keyword externalKeyword include help_index
 
